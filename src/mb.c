@@ -36,13 +36,13 @@
 #include "port/port.h"
 
 /* ----------------------- Modbus includes ----------------------------------*/
-#include "include/mb.h"
-#include "include/mbconfig.h"
-#include "include/mbframe.h"
-#include "include/mbproto.h"
-#include "include/mbfunc.h"
+#include "mb.h"
+#include "mbconfig.h"
+#include "mbframe.h"
+#include "mbproto.h"
+#include "mbfunc.h"
 
-#include "include/mbport.h"
+#include "mbport.h"
 #if MB_RTU_ENABLED == 1
 #include "rtu/mbrtu.h"
 #endif

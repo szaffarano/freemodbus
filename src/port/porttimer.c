@@ -24,11 +24,11 @@
 #include <avr/interrupt.h>
 
 /* ----------------------- Platform includes --------------------------------*/
-#include "../port/port.h"
+#include "port/port.h"
 
 /* ----------------------- Modbus includes ----------------------------------*/
-#include "../include/mb.h"
-#include "../include/mbport.h"
+#include "mb.h"
+#include "mbport.h"
 
 /* ----------------------- Defines ------------------------------------------*/
 #define MB_TIMER_PRESCALER      ( 1024UL )
